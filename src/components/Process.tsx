@@ -48,7 +48,7 @@ const Process = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
+                transition={{ delay: index * 0.1 }}
               >
                 <div className="feature-card group hover:neon-border h-full flex flex-col">
                   <div className="flex items-center justify-center mb-4">
